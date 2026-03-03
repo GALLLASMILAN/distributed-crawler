@@ -1,0 +1,19 @@
+{
+  "name": "distributed-crawler",
+  "version": "1.0.0",
+  "description": "distributed crawler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm build && pnpm -r dev"
+  },
+  "keywords": [],
+  "author": "Milan Gallas <gallas.milan@gmail.com>",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  }
+}

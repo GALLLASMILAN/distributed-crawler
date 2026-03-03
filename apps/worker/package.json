@@ -1,0 +1,24 @@
+{
+  "name": "@crawler/worker",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch ./src/index.ts"
+  },
+  "dependencies": {
+    "@crawler/crawler-core": "workspace:*",
+    "@crawler/database": "workspace:*",
+    "@crawler/queue": "workspace:*",
+    "@crawler/shared": "workspace:*",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "reflect-metadata": "^0.2.2",
+    "robots-parser": "^3.0.1",
+    "tsx": "^4.21.0"
+  }
+}
